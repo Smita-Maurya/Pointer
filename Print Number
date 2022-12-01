@@ -1,9 +1,0 @@
-void print(int n){
-    if(n==0){
-        return ;
-    }
-    //int smallprint = 1+print(n-1);
-     print(n-1);
-    
-    cout<<n<<" ";
- }
